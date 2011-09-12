@@ -2,6 +2,7 @@
 
 class Vehicles {
 
+protected $speed;
 
 
 
