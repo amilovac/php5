@@ -16,15 +16,23 @@ protected $engineStatus;
 protected $type;
 protected $horsePower;
 
+/*konstruktor koji setuje tip vozila:kola, kamion....
+*
+*
+*/
+function __construct($type){
+	$this->type=$type;
 
+
+}
 
 
 
 
 }
 
-
-$car = new Vehicles(); 
+$car = new Vehicles("auto"); 
 var_dump($car);
+
 
 ?>
