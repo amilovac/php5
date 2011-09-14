@@ -23,4 +23,8 @@ protected $horsePower;
 
 }
 
+
+$car = new Vehicles(); 
+var_dump($car);
+
 ?>
