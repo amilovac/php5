@@ -11,10 +11,4 @@ protected $speed;
 
 }
 
-
-
-
-
-
-
 ?>
