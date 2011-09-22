@@ -33,7 +33,7 @@ protected $horsePower;
 **/
 
 
-	public function startEngine($engineStatus){
+	public function setEnginestatus($engineStatus){
    		$this->engineStatus = $engineStatus;
 
 	}
@@ -68,10 +68,7 @@ protected $horsePower;
 */
 
 
-	public function stopEngine(){
-   		return $this->engineStatus;
-
-	}
+	
 
 	public function getSpeed(){
     		return $this->speed;
@@ -94,6 +91,11 @@ protected $horsePower;
 	
 	public function getHorsepower(){
 		return $this->horsepower;
+
+	}
+	
+	public function getEnginestatus(){
+		return $this->engineStatus;
 
 	}
 
