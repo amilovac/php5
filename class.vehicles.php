@@ -21,8 +21,8 @@ protected $horsePower;
 **
 */
 
-function __construct($type){
-	$this->type=$type;
+	function __construct($type){
+		$this->type=$type;
 }
 
 // definicija metoda klase, koje su funkcije objekta?
@@ -33,31 +33,31 @@ function __construct($type){
 **/
 
 
-	function setEngineStatus($engineStatus){
+	public function setEngineStatus($engineStatus){
    		$this->engineStatus = $engineStatus;
 
 	}
 
-	function setSpeed($speed){
+	public function setSpeed($speed){
     		$this->speed = $speed;
 
 	}
 
-	function setColor($color){
+	public function setColor($color){
     		$this->color = $color;
 	}
 
-	function setGear($gear){
+	public function setGear($gear){
     		$this->gear = $gear;
     
 	}
 
-	function setType($type){
+	public function setType($type){
     		$this->type = $type;
     
 	}
 	
-	function setHorsepower($horsepower){
+	public function setHorsepower($horsepower){
 		$this->horsepower = $horsepower;
 
 	}
@@ -68,31 +68,31 @@ function __construct($type){
 */
 
 
-	function getEngineStatus(){
+	public function getEngineStatus(){
    		return $this->engineStatus;
 
 	}
 
-	function getSpeed(){
+	public function getSpeed(){
     		return $this->speed;
 
 	}
 
-	function getColor(){
+	public function getColor(){
     		return $this->color;
 	}
 
-	function getGear(){
+	public function getGear(){
     		return $this->gear;
     
 	}
 
-	function getType(){
+	public function getType(){
     		return $this->type;
     
 	}
 	
-	function getHorsepower(){
+	public function getHorsepower(){
 		return $this->horsepower;
 
 	}
